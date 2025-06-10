@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards de Música</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Flashcards de Música</h1>
+        <div id="flashcard-container">
+            <div class="flashcard" onclick="mostrarResposta()">
+                <div class="front">
+                    <p id="question">Quem é o cantor da música "Desculpa JAYZ"?</p>
+                </div>
+                <div class="back">
+                    <p id="answer">baco exu blues</p>
+                </div>
+            </div>
+        </div>
+        <button id="next-button" onclick="proximaPergunta()">Próxima Pergunta</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
